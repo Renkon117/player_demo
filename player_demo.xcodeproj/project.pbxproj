@@ -12,6 +12,8 @@
 		34A5F0822C083D7F00A7CF3A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A5F0812C083D7F00A7CF3A /* Item.swift */; };
 		34A5F0842C083D8100A7CF3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A5F0832C083D8100A7CF3A /* Assets.xcassets */; };
 		34A5F0882C083D8100A7CF3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A5F0872C083D8100A7CF3A /* Preview Assets.xcassets */; };
+		34A5F08F2C085D4C00A7CF3A /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A5F08E2C085D4C00A7CF3A /* CircleImage.swift */; };
+		34A5F0912C085E5700A7CF3A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A5F0902C085E5700A7CF3A /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		34A5F0832C083D8100A7CF3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34A5F0852C083D8100A7CF3A /* player_demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = player_demo.entitlements; sourceTree = "<group>"; };
 		34A5F0872C083D8100A7CF3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		34A5F08E2C085D4C00A7CF3A /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		34A5F0902C085E5700A7CF3A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		34A5F07C2C083D7F00A7CF3A /* player_demo */ = {
 			isa = PBXGroup;
 			children = (
+				34A5F0902C085E5700A7CF3A /* MapView.swift */,
 				34A5F07D2C083D7F00A7CF3A /* player_demoApp.swift */,
 				34A5F07F2C083D7F00A7CF3A /* ContentView.swift */,
 				34A5F0812C083D7F00A7CF3A /* Item.swift */,
 				34A5F0832C083D8100A7CF3A /* Assets.xcassets */,
 				34A5F0852C083D8100A7CF3A /* player_demo.entitlements */,
 				34A5F0862C083D8100A7CF3A /* Preview Content */,
+				34A5F08E2C085D4C00A7CF3A /* CircleImage.swift */,
 			);
 			path = player_demo;
 			sourceTree = "<group>";
@@ -143,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				34A5F0802C083D7F00A7CF3A /* ContentView.swift in Sources */,
+				34A5F08F2C085D4C00A7CF3A /* CircleImage.swift in Sources */,
+				34A5F0912C085E5700A7CF3A /* MapView.swift in Sources */,
 				34A5F0822C083D7F00A7CF3A /* Item.swift in Sources */,
 				34A5F07E2C083D7F00A7CF3A /* player_demoApp.swift in Sources */,
 			);
